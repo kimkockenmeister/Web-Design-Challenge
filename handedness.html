@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+  <html lang="en-us">
+  
+  <head>
+  
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+  
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" Type="text/css" media="all">
+  
+  </head>
+  
+  <body  style="color:white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Baseball Analysis</a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="landingpage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+              
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="table.html">Data</a>
+            </li>
+              <li class="dropdown nav-item">
+                <a class="dropbtn">Plots</a>
+                <ul class="dropdown-content">
+                <li> <a href="birthmonth.html">Birthmonth </a></li>
+            <li><a href="handedness.html">Handedness</a> </li>
+        <li> <a href="salaries.html">Salaries </a> </li>
+    <li><a href="teamanalysis.html">Team analysis</a> </li>
+                </ul>
+            </li>
+         
+        </div>
+      </nav>
+    <!-- Creates the Overall Grid -->
+    <div class="container">
+      <!-- Row 2 -->
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Does handedness affect your batting average? Does being lefty or right give you an advantage?</h1>
+        </div>
+      </div>   
+        <!-- Row 1 -->
+      <div class="row">
+        <div class="col-md-4">
+          <p>We wanted to examine whether or not handedness had an affect on Batting average. In order to do this we first examined both data set’s separately and then combined them into one DataFrame. I think it’s important to add that the csv files we used for this question, as well as many of the other questions, consisted of data from 1877 - 2015. After combining the two DataFrames, we decided to clean it up. There were a lot of “Nan” values so we removed them before continuing our analysis of the DataFrames.
+</p>
+    <div class="row">
+
+        <div class="col-md-6">    
+            <img src="/Users/kimkockenmeister/Desktop/Bootcamp/hw11/Web-Design-Challenge/Images copy/2.png" width="1050px" height="500px" class="floatRight"></a>
+        </div>
+        <div class="col-md-6"></div>
+      <!-- images-->
+     
+    <div class="row">
+        <div class="col-md-12">
+          <p>We performed a t-test for both. For productivity vs Handedness we found that our p-value wass slightly above our critical threshold of 0.05. This means that there does not appear to be a statistically significant difference between the two different populations. </p>
+        </div>
+        <div class="col-md-12">
+            <p>For Batting Average vs Handedness our p-value was very low which means that we reject our null hypothesis and that our results are statistically significant. In the end, our results showed  that Left Handed batters have a statistically significantly higher batting average than the Right Handed batters.</p>
+          </div>
+      </div>
+      

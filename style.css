@@ -1,0 +1,168 @@
+body {
+    height: 125vh;
+    background-image: url('https://wallpaperaccess.com/full/100418.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+
+  }
+  .align-center {text-align: center; margin: auto;}
+
+  table{
+    margin-left:10px;
+    margin-right:10px;
+    max-width: 100%;
+    overflow: auto;
+  }
+ 
+
+
+main {
+    color: white;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+  /* Dropdown Button */
+  .dropbtn {
+    
+  
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:black;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+
+  .floatRightClear{float:right;clear:right;margin-right:20px}  
+  .box{
+    padding: 10px;
+    background: grey);
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
+  }
+  
+  .nav-item{
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .navbar {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color:white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .navbar li {
+    display: d-block;
+    padding: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  
+  p{
+      font-size: 18px;
+  }
+  
+  .c-d{color:white;
+    font-size: 30px;
+  }
+  
+  .landingpage {
+    color: white;
+    font-family: verdana;
+    font-size: 45px;
+    background-color: rgb(25, 103, 155);
+    border: 1px solid rgb(22, 99, 150);
+    padding: 15px;
+  }
+
+  @media (max-width: 500px) {
+    .navbar li {
+      padding: 10px;
+    }
+    .box {
+      margin-right: 22px;
+      margin-left: 22px;
+    }
+    .navbar ul {
+      visibility: hidden;
+    }
+    #nav-select {
+      visibility: visible;
+    }
+  }
+  
+  .col-1 {width: 8%;}
+  .col-2 {width: 17%;}
+  .col-3 {width: 24%;}
+  .col-4 {width: 32%;}
+  .col-5 {width: 40%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 60%;}
+  .col-8 {width: 65%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 82%;}
+  .col-11 {width: 92%;}
+  .col-12 {width: 100%;}
+  
+  @media only screen and (max-width: 768px) {
+
+      [class*="col-"] {
+          width: 100%;
+      }
+  }
+
+  
