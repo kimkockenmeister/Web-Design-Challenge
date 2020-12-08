@@ -163,6 +163,9 @@ header {
       [class*="col-"] {
           width: 100%;
       }
+    nav .burger {
+    display: block;
+    }
   }
 
   
