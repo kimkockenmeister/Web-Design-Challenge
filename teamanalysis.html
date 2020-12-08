@@ -1,90 +1,105 @@
 <!DOCTYPE html>
-  <html lang="en-us">
-  
-  <head>
-  
+<html lang="en-us">
+
+<head>
+
     <meta charset="UTF-8">
     <title>Landing Page</title>
-  
+
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" Type="text/css" media="all">
-  
-  </head>
-  
-  <body  style="color:white">
+
+</head>
+
+<body style="color:white">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Baseball Analysis</a>
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button> -->
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="comparison.html">Comparison</a>
-              
 
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="table.html">Data</a>
-            </li>
-              <li class="dropdown nav-item">
-                <a class="dropbtn">Plots</a>
-                <ul class="dropdown-content">
-                <li> <a href="birthmonth.html">Birthmonth </a></li>
-            <li><a href="handedness.html">Handedness</a> </li>
-        <li> <a href="salaries.html">Salaries </a> </li>
-    <li><a href="teamanalysis.html">Team analysis</a> </li>
-                </ul>
-            </li>
-          
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="table.html">Data</a>
+                </li>
+                <li class="dropdown nav-item">
+                    <a class="dropbtn">Plots</a>
+                    <ul class="dropdown-content">
+                        <li> <a href="birthmonth.html">Birthmonth </a></li>
+                        <li><a href="handedness.html">Handedness</a> </li>
+                        <li> <a href="salaries.html">Salaries </a> </li>
+                        <li><a href="teamanalysis.html">Team analysis</a> </li>
+                    </ul>
+                </li>
+
         </div>
-      </nav>
+    </nav>
     <!-- Creates the Overall Grid -->
     <div class="container">
-      <!-- Row 2 -->
-      <div class="row">
-        <div class="col-md-12">
-          <h1>What team is the most successful franchise?</h1>
-        </div>
-      </div>   
-        <!-- Row 1 -->
-      <div class="row">
-        <div class="col-md-4">
-          <p>We set out to evaluate which team was the most successful franchise in the history of the MLB. First, we considered that the team with the most overall wins over time would be the most successful team. However, this would bias the analysis towards teams that had been in the league for a long time. A team may be around for a long time and be completely mediocre. We next graphed the cumulative wins of all teams in our dataset who were in the league for greater than 15 seasons.
-</p>
-    <div class="row">
-
-        <div class="col-md-6">    
-            <img src="/Users/kimkockenmeister/Desktop/Bootcamp/hw11/Web-Design-Challenge/Images copy/Screen Shot 2020-12-02 at 6.09.07 PM.png" width="750px" height="500px" class="floatRight"></a>
-        </div>
-        <div class="col-md-6"></div>
-
+        <!-- Row 2 -->
         <div class="row">
             <div class="col-md-12">
-              <p>We then  created a model to account for different factors of team success </p>
+                <h1>What team is the most successful franchise?</h1>
             </div>
-            <div class="col-md-12">
-                <p>For each factor we assign a wait for relative importance. Win rate, discussed above, is important over time, but does not tell the whole story. The number of Hall of Fame Inductees indicates the level of star power that a team has had. In a team sport a Hall of Fame Inductee is supported by the rest of the team. A pitcher may be very successful, but if the rest of the team constantly drops fly balls then he is unlikely to be a Hall of Fame pitcher. Finally, “World Series Wins” is the most heavily weighted factor. This factor takes into account both the success of a team on the franchise level and also the success from the perspective of the fans. A team may be generally successful, but if they reach the World Series every year only to lose then the fans are unlikely to view this team as a success. This allows us to create the following table and plot:</p>
-              </div>
-          </div>
-          <div class="col-md-12">
-            <p>As can be clearly seen, there is one team that is a clear outlier from the rest of the dataset.</p>
-          </div>
-         </div>
-      <!-- images-->
-      <div class="row">
-          
-        <div class="col-md-6">  
-            <img src="/Users/kimkockenmeister/Desktop/Bootcamp/hw11/Web-Design-Challenge/Images copy/Screen Shot 2020-12-02 at 6.20.24 PM.png" width="350px" height="250px" class="floatRight"></a>
         </div>
-        <div class="col-md-6"></div>  
-    </div>   
-         
-        </div>
-    
-      
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col-md-4">
+                <p>We set out to evaluate which team was the most successful franchise in the history of the MLB. First,
+                    we considered that the team with the most overall wins over time would be the most successful team.
+                    However, this would bias the analysis towards teams that had been in the league for a long time. A
+                    team may be around for a long time and be completely mediocre. We next graphed the cumulative wins
+                    of all teams in our dataset who were in the league for greater than 15 seasons.
+                </p>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <img src="/Users/kimkockenmeister/Desktop/Bootcamp/hw11/Web-Design-Challenge/Images copy/Screen Shot 2020-12-02 at 6.09.07 PM.png"
+                            width="750px" height="500px" class="floatRight"></a>
+                    </div>
+                    <div class="col-md-6"></div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>We then created a model to account for different factors of team success </p>
+                        </div>
+                        <div class="col-md-12">
+                            <p>For each factor we assign a wait for relative importance. Win rate, discussed above, is
+                                important over time, but does not tell the whole story. The number of Hall of Fame
+                                Inductees indicates the level of star power that a team has had. In a team sport a Hall
+                                of Fame Inductee is supported by the rest of the team. A pitcher may be very successful,
+                                but if the rest of the team constantly drops fly balls then he is unlikely to be a Hall
+                                of Fame pitcher. Finally, “World Series Wins” is the most heavily weighted factor. This
+                                factor takes into account both the success of a team on the franchise level and also the
+                                success from the perspective of the fans. A team may be generally successful, but if
+                                they reach the World Series every year only to lose then the fans are unlikely to view
+                                this team as a success. This allows us to create the following table and plot:</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <p>As can be clearly seen, there is one team that is a clear outlier from the rest of the
+                            dataset.</p>
+                    </div>
+                </div>
+                <!-- images-->
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <img src="/Users/kimkockenmeister/Desktop/Bootcamp/hw11/Web-Design-Challenge/Images copy/Screen Shot 2020-12-02 at 6.20.24 PM.png"
+                            width="350px" height="250px" class="floatRight"></a>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+
+            </div>
